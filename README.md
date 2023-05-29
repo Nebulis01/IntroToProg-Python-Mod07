@@ -1,8 +1,8 @@
-## Nathan Shelby
-## 29MAY2023
-## Foundations of Programming: Python
-## Assignment 07
-## https://github.com/Nebulis01/IntroToProg-Python-Mod07
+### Nathan Shelby
+### 29MAY2023
+### Foundations of Programming: Python
+### Assignment 07
+### https://github.com/Nebulis01/IntroToProg-Python-Mod07
 
 # Assignment 07: Pickling, Errors and Exceptions (oh my!)
 ## Introduction:
@@ -15,7 +15,9 @@ This is the 7th assignment, part of Module 7 performed as part of the Foundation
 While looking at the Pickling module I found several resources that assisted in my understanding of the module:
 
 https://docs.python.org/3/library/pickle.html - The official documentation is very detailed, and is explicitly clear of the severity of risk for handling external data using the module as you can quickly open yourself to an RCE 
+
 https://www.tutorialspoint.com/python-pickling - This site provided a good overview of practical applications for simple lists and dictionaries.
+
 https://realpython.com/python-pickle-module/ - This provided a good example of how to pickle over a remote listener and if you’d like to set that up how easy it would be to execute arbitrary code via the process. 
 
 The script is basic, enough to demonstrate principles and that’s it. Utilizing the picklesomeitems() function we take provided data and write it to disk for use later. 
@@ -85,11 +87,13 @@ finally:
 A Forced Exception
 
 The book again (and likely why it’s part of class materials) is very decent at demonstrating the exceptions process in Python. 
+
 https://docs.python.org/3/tutorial/errors.html - the official docs also provide additional context for how exceptions and errors can be handled. 
+
 https://realpython.com/python-exceptions/ - Well thought out explanations and graphics which show clearly how the interpreter is handling the process. 
 
 #Summary
 	This week we learned how to pickle and unpickle data in Python along with utilizing some error handling. The ask was different from previous weeks due to the lack of defined structure and framework for the coding ask, much like what you experience in real world settings. Proof of execution is provided below. 
   
-https://github.com/Nebulis01/IntroToProg-Python-Mod07/blob/main/Figure5.png
-https://github.com/Nebulis01/IntroToProg-Python-Mod07/blob/main/Figure6.png
+![Proof of Execution](./Figure5.png)
+![Proof of Execution](./Figure6.png)
