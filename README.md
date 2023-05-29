@@ -1,8 +1,8 @@
-### Nathan Shelby
-### 29MAY2023
-### Foundations of Programming: Python
-### Assignment 07
-### https://github.com/Nebulis01/IntroToProg-Python-Mod07
+Nathan Shelby
+29MAY2023
+Foundations of Programming: Python
+Assignment 07
+https://github.com/Nebulis01/IntroToProg-Python-Mod07
 
 # Assignment 07: Pickling, Errors and Exceptions (oh my!)
 ## Introduction:
@@ -10,7 +10,8 @@
 This is the 7th assignment, part of Module 7 performed as part of the Foundations of Programming: Python course for the Spring 2023 session at University of Washington. The task list includes reading chapter 7 of the coursebook, perform research on how two areas of Python operate – Pickling and Error Handling – once research has been completed, we need to write code to demonstrate both concepts.  
 
 ## Creating your script:
-	In this script we perform some basic operations to demonstrate Python’s Pickling feature by using defined list data to write binary out to a file, firearms.db, which we then read back. To demonstrate the exception and error handling process we attempt to delete the file while it is still open, which triggers an exception which we then handle by closing the file properly and performing the delete again, only after verifying the file is not present on disk do we exist the program. 
+
+In this script we perform some basic operations to demonstrate Python’s Pickling feature by using defined list data to write binary out to a file, firearms.db, which we then read back. To demonstrate the exception and error handling process we attempt to delete the file while it is still open, which triggers an exception which we then handle by closing the file properly and performing the delete again, only after verifying the file is not present on disk do we exist the program. 
 
 While looking at the Pickling module I found several resources that assisted in my understanding of the module:
 
