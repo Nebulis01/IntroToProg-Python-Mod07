@@ -45,7 +45,7 @@ def picklesomeitems():
     # ensure the file handle is closed and items are written to disk
     f_db.close()
 ```
-picklesomeitems() 
+### picklesomeitems() 
 
 We then unpickle the content, picking it up from disk and placing it in a few global variables for use. 
 
@@ -66,7 +66,7 @@ def unpicklesomeitems():
     firearm_action = pickle.load(f_db_ro)
     firearm_type = pickle.load(f_db_ro)
 ```
-unpicklesomeitems()
+### unpicklesomeitems()
 
 To provide proof of function we print the data back to the console and to exercise the exception process we attempt to delete a file which we know to be open, thus throwing an exception which causes the message “Unable to remove the file!” to be displayed. We then proceed to execute the required steps to perform cleanup on disk and exit the program. 
 
@@ -89,7 +89,7 @@ finally:
         print("\nFile removed successfully, goodbye.")
         exit()
 ```
-A Forced Exception
+### A Forced Exception
 
 The book again (and likely why it’s part of class materials) is very decent at demonstrating the exceptions process in Python. 
 
@@ -97,8 +97,9 @@ https://docs.python.org/3/tutorial/errors.html - the official docs also provide 
 
 https://realpython.com/python-exceptions/ - Well thought out explanations and graphics which show clearly how the interpreter is handling the process. 
 
-#Summary
-	This week we learned how to pickle and unpickle data in Python along with utilizing some error handling. The ask was different from previous weeks due to the lack of defined structure and framework for the coding ask, much like what you experience in real world settings. Proof of execution is provided below. 
+# Summary
+
+This week we learned how to pickle and unpickle data in Python along with utilizing some error handling. The ask was different from previous weeks due to the lack of defined structure and framework for the coding ask, much like what you experience in real world settings. Proof of execution is provided below. 
   
 ![Proof of Execution](./Figure5.png)
 ![Proof of Execution](./Figure6.png)
