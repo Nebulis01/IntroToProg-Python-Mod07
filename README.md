@@ -1,7 +1,11 @@
 Nathan Shelby
+
 29MAY2023
+
 Foundations of Programming: Python
+
 Assignment 07
+
 https://github.com/Nebulis01/IntroToProg-Python-Mod07
 
 # Assignment 07: Pickling, Errors and Exceptions (oh my!)
