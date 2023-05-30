@@ -8,6 +8,8 @@ Assignment 07
 
 https://github.com/Nebulis01/IntroToProg-Python-Mod07
 
+https://nebulis01.github.io/IntroToProg-Python-Mod07/
+
 # Assignment 07: Pickling, Errors and Exceptions (oh my!)
 ## Introduction:
 
